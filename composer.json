@@ -1,0 +1,34 @@
+{
+    "name": "aztech/live-debug",
+    "description": "Debug helper",
+    "license": "MIT",
+    "keywords": [
+        "aztech",
+        "aztech-digital"
+    ],
+    "type": "library",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Aztech\\LiveDebug\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">= 5.4",
+        "aztech/php-utils": "~1.0",
+        "psr/log": "~1.0",
+        "aztech/event-bus-extra-wamp": "dev-master",
+        "symfony/var-dumper": "~2.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.2",
+        "squizlabs/php_codesniffer": "~2",
+        "vektah/bugfree-dangerzone": "~0.3",
+        "phpmd/phpmd": "~2"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1.x-dev"
+        }
+    }
+}
