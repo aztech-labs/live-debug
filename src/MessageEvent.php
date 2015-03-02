@@ -1,6 +1,6 @@
 <?php
 
-namespace Tequihla\Shared\LiveDebug;
+namespace Aztech\LiveDebug;
 
 use Aztech\Events\Event;
 use Rhumsaa\Uuid\Uuid;
